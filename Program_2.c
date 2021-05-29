@@ -6,7 +6,16 @@
 int main()
 {
 	char str[10];
+  int length,i;
+
+  printf("Enter the string to be reversed:");
 	scanf("%s", str);
+
+  length=strlen(str);
+  for(i=length-1;i>=0;i--)
+  {
+    printf("%c",str[i]);
+  }
 
 	//Write your code here
 
